@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #cfcfcf;
+  border-radius: 2px;
+  width: 30%;
+  padding: 20px;
+  text-align:center;
+  margin: 5px;
+  transition: all 200ms ease-in-out;
+}
+
+.card:hover {
+  border: 3px solid lightseagreen;
+  cursor: pointer;
+}
+
+.card img {
+  max-width: 100%;
+  height: 300px;
+}
